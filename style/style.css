@@ -24,7 +24,6 @@ body {
 .lydia-dp {
   width: 200px;                   /* Slightly larger than before */
   height: 200px;                  /* Make sure width and height are equal for a square */
-  border-radius: 15px;            /* Small border radius for slightly rounded corners */
   overflow: hidden;               /* Ensures any overflow is hidden */
   border: 3px solid #ddd;         /* Adds a light gray border */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a slight depth */
