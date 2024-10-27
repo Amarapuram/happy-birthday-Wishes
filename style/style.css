@@ -22,14 +22,15 @@ body {
   z-index: 1;
 }
 .lydia-dp {
-  width: 150px;                  /* Set a fixed width for the profile picture */
-  height: 150px;                 /* Set a fixed height for the profile picture */
-  border-radius: 50%;            /* Makes the image circular */
-  overflow: hidden;              /* Ensures any overflow is cut off */
-  border: 5px solid #ddd;        /* Adds a light gray border */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for depth */
-  display: inline-block;         /* Allows for inline display if needed */
+  width: 200px;                   /* Slightly larger than before */
+  height: 200px;                  /* Make sure width and height are equal for a square */
+  border-radius: 15px;            /* Small border radius for slightly rounded corners */
+  overflow: hidden;               /* Ensures any overflow is hidden */
+  border: 3px solid #ddd;         /* Adds a light gray border */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a slight depth */
+  display: inline-block;
 }
+
 
 .container div.seven,
 .container div.eight {
